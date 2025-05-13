@@ -1,15 +1,15 @@
 {
   "dataStudio": {
     "name": "Custom Funnel Chart",
-    "logoUrl": "https://yourdomain.com/logo.png",
+    "logoUrl": "",
     "company": "Your Studio",
     "description": "Funnel chart for user journey exploration",
-    "supportUrl": "https://yourdomain.com/support"
+    "supportUrl": ""
   },
   "components": {
-    "visualization": "funnel.js"
+    "visualization": "https://raw.githubusercontent.com/dietmarsebastianoffers/custom-visualization/refs/heads/main/funnel.js"
   },
-  "style": "style.css",
+  "style": "https://raw.githubusercontent.com/dietmarsebastianoffers/custom-visualization/refs/heads/main/style.css",
   "fields": {
     "required": [
       {
