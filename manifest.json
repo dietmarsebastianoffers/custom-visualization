@@ -1,0 +1,27 @@
+{
+  "dataStudio": {
+    "name": "Custom Funnel Chart",
+    "logoUrl": "https://yourdomain.com/logo.png",
+    "company": "Your Studio",
+    "description": "Funnel chart for user journey exploration",
+    "supportUrl": "https://yourdomain.com/support"
+  },
+  "components": {
+    "visualization": "funnel.js"
+  },
+  "style": "style.css",
+  "fields": {
+    "required": [
+      {
+        "id": "stage",
+        "name": "Funnel Stage",
+        "type": "DIMENSION"
+      },
+      {
+        "id": "value",
+        "name": "User Count",
+        "type": "METRIC"
+      }
+    ]
+  }
+}
